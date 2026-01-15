@@ -2,6 +2,6 @@
 @source "../views/";
 @source "../../app/";
 
-.fodrasz-accent {
-  color: #bc02d8; /* lilás */
+.section-padding {
+  @apply py-16 px-6;
 }
