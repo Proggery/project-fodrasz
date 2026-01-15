@@ -26,5 +26,18 @@ services:
       - db_data:/var/lib/mysql
     restart: always
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: start-phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: example
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    restart: always
+
 volumes:
   db_data:
