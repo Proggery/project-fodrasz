@@ -3,7 +3,7 @@ version: '3.9'
 services:
   wordpress:
     image: wordpress:latest
-    container_name: start-wordpress
+    container_name: wordpress
     ports:
       - "8000:80"
     environment:
@@ -18,7 +18,7 @@ services:
 
   db:
     image: mysql:latest
-    container_name: start-mysql
+    container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: example
       MYSQL_DATABASE: wordpress
@@ -28,7 +28,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
-    container_name: start-phpmyadmin
+    container_name: phpmyadmin
     environment:
       PMA_HOST: db
       PMA_USER: root
