@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+<h1 class="fodrasz-accent text-4xl">
+  Fodrász szalon
+</h1>
+
 @section('content')
   @include('partials.page-header')
 

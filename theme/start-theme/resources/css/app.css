@@ -1,3 +1,7 @@
 @import "tailwindcss" theme(static);
 @source "../views/";
 @source "../../app/";
+
+.fodrasz-accent {
+  color: #bc02d8; /* lilás */
+}
