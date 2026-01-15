@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<h1 class="text-3xl font-bold text-red-500">
+<h1 class="text-3xl font-bold text-green-500">
   STARTER TEMPLATE HEADER
 </h1>
 <section class="section-padding bg-gray-100">
