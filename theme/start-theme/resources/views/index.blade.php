@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+<section class="section-padding bg-gray-100">
+  <p>Univerzális szekció</p>
+</section>
 @section('content')
   @include('partials.page-header')
 

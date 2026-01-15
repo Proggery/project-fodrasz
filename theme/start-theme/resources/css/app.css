@@ -1,3 +1,7 @@
 @import "tailwindcss" theme(static);
 @source "../views/";
 @source "../../app/";
+
+.section-padding {
+  @apply py-16 px-6;
+}
